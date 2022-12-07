@@ -1,0 +1,198 @@
+body {
+  margin: 0px;
+  padding: 2px;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+}
+.welcome {
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  left: 40rem;
+  top: 200px;
+}
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  color: white;
+  position: relative;
+  left: 25rem;
+  bottom: 3rem;
+  width: 100vw;
+
+  height: 50px;
+  /* border-radius: 30px; */
+  /* border: 3px solid brown; */
+  font-size: 20px;
+  font-weight: bold;
+}
+.Linkdin {
+  position: inherit;
+  right: 25px;
+  border-radius: 50px;
+}
+.insta {
+  position: inherit;
+  border-radius: 50px;
+  right: 52px;
+  top: 2px;
+}
+.git {
+  border-radius: 50px;
+}
+
+.text {
+  color: white;
+  text-decoration: none;
+}
+.text:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+.Bio {
+  position: relative;
+  left: 10rem;
+  top: 7rem;
+  font-size: larger;
+}
+.front {
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  color: brown;
+  font-size: 30px;
+  left: 100px;
+}
+.font {
+  font-family: 'Times New Roman', Times, serif;
+  color: aqua;
+  position: relative;
+  right: 70px;
+  bottom: 100px;
+}
+.font1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: sienna;
+  position: relative;
+  right: 70px;
+  bottom: 100px;
+}
+.my_pic {
+  height: 400px;
+  width: 450px;
+  position: relative;
+  left: 30rem;
+  bottom: 18rem;
+  border-radius: 80px;
+  border: 2px solid black;
+}
+.about {
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  padding-left: 50px;
+}
+.about_frontend {
+  color: white;
+}
+.About_intro {
+  color: white;
+}
+.about2 {
+  font-size: 30px;
+  color: brown;
+  font-family: 'Times New Roman', Times, serif;
+}
+.about3 {
+  font-size: 15px;
+  color: grey;
+  position: relative;
+  top: 200px;
+  left: 600px;
+}
+Button {
+  position: inherit;
+  bottom: 470px;
+  right: 70px;
+  border-radius: 30px;
+  font-size: 20px;
+  background-color: brown;
+  color: white;
+  border: 2px solid;
+  cursor: pointer;
+}
+Button:hover {
+  background-color: green;
+}
+
+.about_frontend {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.feb {
+  position: relative;
+  left: 90%;
+  bottom: 40px;
+}
+/* hr {
+  position: relative;
+  bottom: 40px;
+} */
+.all {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Project_ {
+  height: 400px;
+  width: 250px;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.project_img {
+  position: relative;
+  height: 250px;
+  width: 200px;
+  padding-left: 30px;
+  /* margin-bottom: 300px; */
+}
+.project_name {
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 3px red;
+  cursor: pointer;
+  padding-left: 30px;
+}
+
+.code_live {
+  left: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.technology_img {
+  height: 450px;
+  width: 700px;
+  border-radius: 30px;
+  position: relative;
+  left: 30rem;
+  bottom: 150px;
+}
+container1 {
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.main_name {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  bottom: 35px;
+  left: 150px;
+  cursor: pointer;
+}
+.main_name:hover {
+  text-shadow: 1px 2px 2px brown;
+}
